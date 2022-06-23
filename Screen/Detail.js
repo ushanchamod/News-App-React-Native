@@ -16,6 +16,7 @@ export default function Detail() {
   return (
     <ScrollView style={styles.main}>
       <Text style={styles.title}>{route.params.title}</Text>
+
       <View style={styles.separateLineSort}></View>
 
       <Text style={styles.author}>Author : {route.params.author}</Text>
@@ -64,7 +65,6 @@ const styles = StyleSheet.create({
 
     height: 1,
     backgroundColor: "#eee",
-    // alignSelf: ""
   },
   separateLineLong: {
     width: "100%",
@@ -72,7 +72,6 @@ const styles = StyleSheet.create({
 
     height: 2,
     backgroundColor: "#eee",
-    // alignSelf: ""
   },
   author: {
     fontSize: 18,
@@ -93,5 +92,6 @@ const styles = StyleSheet.create({
   content: {
     fontSize: 16,
     color: "#413F42",
+    lineHeight: 30,
   },
 });

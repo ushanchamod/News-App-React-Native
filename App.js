@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import NewsScreen from "./Screen/News";
 import DetailScreen from "./Screen/Detail";
 
+// Create createNativeStackNavigator
 const Stack = createNativeStackNavigator();
 
 export default function App() {
